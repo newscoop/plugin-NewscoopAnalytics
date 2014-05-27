@@ -49,6 +49,6 @@ plugin:
         change-code-type-description: null
         ip-anonym-description: null
         post-description: null
-        activate-description: null
-        code-description: null
+        activate-description: 'If you have the option <i>Activate</i> checked, you can visit the publication''s website and look at the source code. Depending on where you pasted the tag in the templates, you should find the analytics code at the top or bottom of the page.'
+        code-description: 'The code will generate a HTTP request with your collected visitors'' data that is sent to the Piwik or Google server for processing. Based on this collected data, reports can be retrieved to gain valuable information about how the visitors of your publication behave. Reports can be displayed in the Piwik or Google Analytics admin interface. We will provide reporting functionality within Newscoop in some later version of this plugin.'
         google-description: null
