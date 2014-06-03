@@ -28,7 +28,7 @@ plugin:
         sidebar-tip-info-default: 'Pokud si nejste jisti, použijte původní nastavení.'
         sidebar-tip-info-implement: null
         sidebar-tip-info-code-type: null
-        theme-manager: null
+        theme-manager: 'Spravování témat'
         code-type: 'Typ kódu'
         ip-anonym: 'Anonymizovat IP'
         enter-url: 'Prosíme vlože platný Piwik URL'
