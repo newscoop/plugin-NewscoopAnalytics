@@ -17,7 +17,7 @@ plugin:
         sidebar_ol_li3: null
         sidebar_ol_li4: null
         sidebar_ol_li5: null
-        sidebar_ol_ul_li1: null
+        sidebar_ol_ul_li1: "ألصق\n<b>&#123;&#123;analytics_block&#125;&#125;&nbsp;&#123;&#123;&#47;analytics_block&#125;&#125;</b> in the .tpl files before the &#60;&#47;body&#62; tag"
         sidebar_ol_ul_li2: null
         done: null
         prerequisites: null
