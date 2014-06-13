@@ -1,54 +1,54 @@
-Plugins: null
+Plugins: Plugins
 plugin:
     admin:
-        title: null
-        titlecontent: null
-        content: null
-        menu-left: null
-        pub-id: null
-        piwik-login: null
-        visit-pub: null
-        advanced: null
-        mask-ip: null
-        method-post: null
-        sidebar_title: null
-        sidebar_ol_li1: null
-        sidebar_ol_li2: null
-        sidebar_ol_li3: null
-        sidebar_ol_li4: null
-        sidebar_ol_li5: null
-        sidebar_ol_ul_li1: null
-        sidebar_ol_ul_li2: null
-        done: null
-        prerequisites: null
-        prerequisites_ol_li1: null
-        prerequisites_ol_li2: null
-        more-piwik: null
-        sidebar-tip: null
-        sidebar-tip-info-default: null
-        sidebar-tip-info-implement: null
-        sidebar-tip-info-code-type: null
-        theme-manager: null
-        code-type: null
-        ip-anonym: null
-        enter-url: null
-        enter-id: null
-        enter-token: null
-        piwik-url: null
-        activate: null
-        helptext-ol-li1: null
-        helptext-ol-li2: null
-        helptext-ol-li3: null
-        helptext-ol-li4: null
-        close: null
-        help: null
-        more-google: null
-        piwik-url-id-description: null
-        js-description: null
-        imgtrack-description: null
+        title: 'Statistik administrator'
+        titlecontent: 'Statistik administrator'
+        content: 'Generer statistik kode og indsæt den i dine skabeloner.'
+        menu-left: Publikationer
+        pub-id: Publikation
+        piwik-login: 'Log ind i Piwik:'
+        visit-pub: 'Besøg din publikation:'
+        advanced: Avanceret
+        mask-ip: 'Maskerer IP adresser (ikke tilgængeligt).'
+        method-post: 'Brug ''POST'' forespørgsler.'
+        sidebar_title: 'Hvordan det virker'
+        sidebar_ol_li1: 'Vælg en publikation fra menuen'
+        sidebar_ol_li2: 'Indtast Piwik URL og hjemmeside ID'
+        sidebar_ol_li3: 'Vælg yderligere sporings indstillinger'
+        sidebar_ol_li4: 'Klik på <b>Send</b>'
+        sidebar_ol_li5: 'Rediger skabelon i'
+        sidebar_ol_ul_li1: 'Indsæt <b>&#123;&#123;analytics_block&#125;&#125;&nbsp;&#123;&#123;&#47;analytics_block&#125;&#125;</b> i .tpl filerne før &#60;&#47;body&#62; tag''et'
+        sidebar_ol_ul_li2: 'Se den genererede kode i din publikations kildekode (hvis <b>Aktiver</b> er slået til).'
+        done: Færdig!
+        prerequisites: Krav
+        prerequisites_ol_li1: 'Piwik skal være installeret. ("Piwik URL" er URL/sti til din Piwik server)'
+        prerequisites_ol_li2: 'Publikation skal tilføjes som hjemmeside ("Site ID") i Piwik eller Google Analytics'
+        more-piwik: 'Mere om Piwik'
+        sidebar-tip: Tip
+        sidebar-tip-info-default: 'Brug standard indstillingerne hvis du er usikker.'
+        sidebar-tip-info-implement: 'Vi anbefaler et indsætte statistik tags for Piwik i footer.tpl efter &#60;&#47;footer&#62; taget.'
+        sidebar-tip-info-code-type: "Du kan ændre kode typen i skabelonen med <i>tracker</i> parameteret.\nEksempel: &#123;&#123;analytics_block tracker=&#34;2&#34;&#125;&#125;&#123;&#123;&#47;analytics_block&#125;&#125;"
+        theme-manager: 'Tema administration'
+        code-type: 'Kode type'
+        ip-anonym: 'Anonymisér IP'
+        enter-url: 'Indtast en gyldig Piwik URL'
+        enter-id: 'Indtast et gyldigt hjemmeside ID'
+        enter-token: 'Indtast authToken'
+        piwik-url: 'Piwik URL (ingen protokol)'
+        activate: Aktiver
+        helptext-ol-li1: 'Hvor kan jeg finde Piwik URL og hjemmeside ID?'
+        helptext-ol-li2: 'Hvad er de avancerede indstillinger?'
+        helptext-ol-li3: 'Hvor kan jeg se den genererede kode?'
+        helptext-ol-li4: 'Hvad kan den genererede kode bruges til?'
+        close: luk
+        help: Hjælp
+        more-google: 'Mere om Google Analytics'
+        piwik-url-id-description: 'Piwik URL er stien til din Piwik installation. Hjemmeside ID repræsenterer en hjemmeside i Piwik og skal tilføjes af Piwik administratoren. Du kan finde hjemmeside ID i Piwiks hjemmeside administration. Giv besked hvis du ikke kender de indstillinger.'
+        js-description: '<i>JavaScript</i> er standard og Piwiks mest effektive sporingsmetode.'
+        imgtrack-description: '<i>ImageTracker</i> er en alternativ sporingsmetode i tilfælde af at JavaScript ikke er tilgængeligt.'
         change-code-type-description: null
         ip-anonym-description: null
-        post-description: null
-        activate-description: null
+        post-description: 'Ændrer sporings koden så den bruger ''POST'' metoden (standard er ''GET''). For at bruge POST skal Piwik være på samme domæne som den hjemmeside der spores.'
+        activate-description: 'Hvis <i>Aktiver</i> er slået til kan du besøge publikationens hjemmesid og se på kildekoden. Afhængigt af hvor i skabelonerne du har indsat tag''et kan du finde statistik koden i toppen eller bunden af siden.'
         code-description: null
         google-description: null
