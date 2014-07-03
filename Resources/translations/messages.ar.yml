@@ -1,12 +1,12 @@
-Plugins: null
+Plugins: 'وحدات قابسة'
 plugin:
     admin:
-        title: null
-        titlecontent: null
-        content: null
-        menu-left: null
-        pub-id: null
-        piwik-login: null
+        title: 'مدير التحليلات'
+        titlecontent: 'مدير التحليلات'
+        content: 'أنتج شفرة التتبع للتحليلات وأضفها الى نماذجك.'
+        menu-left: المنشورات
+        pub-id: المنشور
+        piwik-login: 'سجّل في بيويك:'
         visit-pub: null
         advanced: null
         mask-ip: null
