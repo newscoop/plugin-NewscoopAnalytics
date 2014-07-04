@@ -7,48 +7,48 @@ plugin:
         menu-left: المنشورات
         pub-id: المنشور
         piwik-login: 'سجّل في بيويك:'
-        visit-pub: null
-        advanced: null
-        mask-ip: null
-        method-post: null
-        sidebar_title: null
-        sidebar_ol_li1: null
-        sidebar_ol_li2: null
-        sidebar_ol_li3: null
-        sidebar_ol_li4: null
-        sidebar_ol_li5: null
+        visit-pub: 'قم بزيارة منشورك.'
+        advanced: متقدم
+        mask-ip: 'إخفاء عناوين IP (حالياً غير متاح).'
+        method-post: 'ضبط أسلوب الطلب الى "إنشر".'
+        sidebar_title: 'كيفية العمل'
+        sidebar_ol_li1: 'إختر منشوراً من القائمة المنسدلة'
+        sidebar_ol_li2: 'إدخل رابط عنوان البيويك الخاص بك وهوية الموقع.'
+        sidebar_ol_li3: 'إختر اختيارات التتبع الإضافية'
+        sidebar_ol_li4: 'أنقر على <b>أرسل</b>'
+        sidebar_ol_li5: 'حرر النماذج في'
         sidebar_ol_ul_li1: "ألصق\n<b>&#123;&#123;analytics_block&#125;&#125;&nbsp;&#123;&#123;&#47;analytics_block&#125;&#125;</b> in the .tpl files before the &#60;&#47;body&#62; tag"
-        sidebar_ol_ul_li2: null
-        done: null
-        prerequisites: null
-        prerequisites_ol_li1: null
-        prerequisites_ol_li2: null
-        more-piwik: null
-        sidebar-tip: null
-        sidebar-tip-info-default: null
-        sidebar-tip-info-implement: null
-        sidebar-tip-info-code-type: null
-        theme-manager: null
-        code-type: null
-        ip-anonym: null
-        enter-url: null
-        enter-id: null
-        enter-token: null
-        piwik-url: null
-        activate: null
-        helptext-ol-li1: null
-        helptext-ol-li2: null
-        helptext-ol-li3: null
-        helptext-ol-li4: null
-        close: null
-        help: null
-        more-google: null
-        piwik-url-id-description: null
-        js-description: null
-        imgtrack-description: null
+        sidebar_ol_ul_li2: 'أنظر شفرة المصدر لمنشورك حتى ترى الشفرة التي تم إنشاؤها (إذا ضعت علامة على إختيار <br>تفعيل</b>.)'
+        done: تم!
+        prerequisites: متطلبات
+        prerequisites_ol_li1: 'من اللازم أن تثبت بيويك. ("رابط عنوان بيويك" يمثل رابط العنوان/ مسار الخادم لبيويك)'
+        prerequisites_ol_li2: 'من اللازم أن المنشور يضاف كموقع ويب ("هوية الموقع") في بيويك أو تحليلات جوجل'
+        more-piwik: 'أكثر عن بيويك'
+        sidebar-tip: نصيحة
+        sidebar-tip-info-default: 'إذا لم تكن متأكداً فإستعمل الإعدادات الإفتراصية.'
+        sidebar-tip-info-implement: 'نوصي وضع علامة كتلة تحليلات لPiwik في footer.tpl بعد </ تذييل> العلامة.tpl  &#60;&#47;footer&#62; tag.'
+        sidebar-tip-info-code-type: "يمكنك تغيير نوع التعليمات البرمجية في قالب باستخدام تعقب <I> المعلمة </ ط>. مثال: analytics_block تعقب = \"2\"}/ analytics_block\ntracker=&#34;2&#34;&#125;&#125;&#123;&#123;&#47;analytics_block&#125;&#125;"
+        theme-manager: 'إدارة النسق'
+        code-type: 'نوع الشفرة'
+        ip-anonym: 'عنوان رابط مجهول.'
+        enter-url: 'إدخل رابط عنوان البيويك الصالح من فضلك'
+        enter-id: 'إدخل هوية الموقع الصالح من فضلك'
+        enter-token: 'من فضلك أدخل رمز التفويض المعطى.'
+        piwik-url: 'رابط عنوان البيويك (لا بروتوكول)'
+        activate: تمكين
+        helptext-ol-li1: 'أين يمكن أن أجد رابط عنوان البيويك وهوية الموقع؟'
+        helptext-ol-li2: 'ما هي الإعدادات المتقدمة؟'
+        helptext-ol-li3: 'أين يمكن أن أرى الشفرة المولدة؟'
+        helptext-ol-li4: 'ما هو غرض الشفرة المولدة؟'
+        close: إغلاق
+        help: المساعدة
+        more-google: 'أكثر عن تحليلات جوجل'
+        piwik-url-id-description: 'يمثل عنوان الرابط لبيويك الطريق إلى تثبيت بيويك. تمثل هوية الموقع موقع ويب في بيويك ومن اللازم أن تضاف من مشرف لبيويك. يمكن أن تجد هوية الموقع في إدارة المواقع لبيويك. إذا لم تعرف هذه الإعدادات فأخبرنا.'
+        js-description: '<i>جافاسكريبت<i> هو الإفتراضي وأيضا من المرجح أن يكون أقوى طريقة لتتبع لبيويك.'
+        imgtrack-description: '<i>متتبع الصور<i>هو إختيار التتبع البديل، لو لم يفعل جافاسكريبت أو لم يكن متوفر.'
         change-code-type-description: null
-        ip-anonym-description: null
-        post-description: null
-        activate-description: null
-        code-description: null
-        google-description: null
+        ip-anonym-description: 'إفتراضياً بيويك يخزن عنوان IP للزائر (شكل ipv4 أم ipv6) في قائدة بيانات لكل زائر جديد. لتأكيد أنك لا تخزن IP الزائر، بيويك يزود الإخيار لتجهيل الـ IP تلقائياً. مع الآسف، هذا الإخيار ليس متوفر لتمديد لشفرة التتبع بل في تخطيط. إذا شئت أن يستخدمه الآن، من فضلك إذهل إلى الإعدادات الإدارية لبيويك.'
+        post-description: 'عند تفعيل، هذا سيضيف إختيارا لشفرة التتبع حتى تكون أسلوب الطلب ''POST'' (الإفتراضي هو ''GET''). لتستخدم آسلوب الطلب POST، من اللازم أن  يكون المضيف بيويك نفس المضيف كمضيف الموقع المتتبع (أي بيويك مركّب في نفس الحقل كموقع الويب المتتبع).'
+        activate-description: 'إذا كان لك الأختيار <i>تفعيل<i> مؤشر، يمكن أن تزور موقع الويب للمنشور وأن تنظر الى شفرة المصدر. إعتماداً على أين لصقت العلامة في النماذج، من الأرجح أن تجد شفرة التحليلات في الجزء العلوي أم السفلي من الصفحة.'
+        code-description: 'الشفرة ستولّد طلب  HTTP ببيانات الزائر المتجمعة لك التي مرسلة الى الخادم لحجوجل أو بيويك للمعالجة. إستناداً على هذه البيانات المتجمعة،  يمكن أن تستردد التقارير لحصول على معلومات قيمة حول كيفية تصرف الزائرين لمنشورك. يمكن أن تعرض تقارير في الواجهة الإدارية لتحليلات جوجل أو تحليلات بيويك. سنزود إبلاغ عن التشغيل ضمن نيوسكوب في إصدار لاحق ما من هذا الملحق.'
+        google-description: 'يزود جوجل إختيارين لشفرة جافاسكريبت لتتبع الويب: <i>تحليلات كلاسيكية</i> و<i>تحليلات عالمية</i> ().'
