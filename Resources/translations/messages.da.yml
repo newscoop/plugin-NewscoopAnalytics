@@ -46,9 +46,9 @@ plugin:
         piwik-url-id-description: 'Piwik URL er stien til din Piwik installation. Hjemmeside ID repræsenterer en hjemmeside i Piwik og skal tilføjes af Piwik administratoren. Du kan finde hjemmeside ID i Piwiks hjemmeside administration. Giv besked hvis du ikke kender de indstillinger.'
         js-description: '<i>JavaScript</i> er standard og Piwiks mest effektive sporingsmetode.'
         imgtrack-description: '<i>ImageTracker</i> er en alternativ sporingsmetode i tilfælde af at JavaScript ikke er tilgængeligt.'
-        change-code-type-description: null
-        ip-anonym-description: null
+        change-code-type-description: '<b>Bemærk:</b> Du kan ændre kodetypen i skabelonen med parameteret <i>tracker</i>. <i>tracker=&#34;1&#34;</i> genererer Piwik JavaScript kode, <i>tracker=&#34;2&#34;</i> Piwik billed kode. <i>tracker=&#34;3&#34;</i> og <i>tracker=&#34;4&#34;</i> genererer Google Analytics kode. Hvis det ikke indstilles genereres standard koden.'
+        ip-anonym-description: 'Som standard gemmer Piwik IP adresser  (ipv4 eller ipv6 format) for hver besøgende i databasen. Piwik giver mulighed for automatisk IP anonymisering, men dette ikke indstilles via statistik koden. Hvis du vil bruge anonymisering skal du gøre det i Piwiks administrations indstillinger.'
         post-description: 'Ændrer sporings koden så den bruger ''POST'' metoden (standard er ''GET''). For at bruge POST skal Piwik være på samme domæne som den hjemmeside der spores.'
         activate-description: 'Hvis <i>Aktiver</i> er slået til kan du besøge publikationens hjemmesid og se på kildekoden. Afhængigt af hvor i skabelonerne du har indsat tag''et kan du finde statistik koden i toppen eller bunden af siden.'
-        code-description: null
-        google-description: null
+        code-description: 'Koden vil generere en HTTP request der sender dine besøgsdata til en Piwik eller Google server til analyse. På baggrund af de indsamlede data kan der laves rapporter om brugen af din publikation. Rapporterne kan ses i Piwiks eller Googles administration. Vi vil integrere rapporterne i Newscoop med en fremtidig version af denne plugin.'
+        google-description: 'Google tilbyder 2 JavaScript koder til statistik: <i>Classic Analytics</i> (ga.js) og den nyere <i>Universal Analytics</i> (analytics.js).'
