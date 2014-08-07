@@ -11,7 +11,7 @@ plugin:
         advanced: null
         mask-ip: null
         method-post: null
-        sidebar_title: null
+        sidebar_title: 'Hogyan működik'
         sidebar_ol_li1: null
         sidebar_ol_li2: null
         sidebar_ol_li3: null
