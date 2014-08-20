@@ -7,7 +7,7 @@ plugin:
         menu-left: Kiadványok
         pub-id: Kiadvány
         piwik-login: 'Belépés a Piwikbe:'
-        visit-pub: null
+        visit-pub: 'Kiadványod felkeresése:'
         advanced: null
         mask-ip: null
         method-post: null
