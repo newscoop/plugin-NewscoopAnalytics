@@ -6,7 +6,7 @@ plugin:
         content: 'Analytics követőkód generálása, és hozzáadása a saját sablonokhoz.'
         menu-left: Kiadványok
         pub-id: Kiadvány
-        piwik-login: null
+        piwik-login: 'Belépés a Piwikbe:'
         visit-pub: null
         advanced: null
         mask-ip: null
