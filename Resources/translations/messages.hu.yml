@@ -1,11 +1,11 @@
-Plugins: null
+Plugins: Bővítmények
 plugin:
     admin:
-        title: null
-        titlecontent: null
-        content: null
-        menu-left: null
-        pub-id: null
+        title: 'Elemzési adatok kezelése'
+        titlecontent: 'Elemzési adatok kezelése'
+        content: 'Analytics követőkód generálása, és hozzáadása a saját sablonokhoz.'
+        menu-left: Kiadványok
+        pub-id: Kiadvány
         piwik-login: null
         visit-pub: null
         advanced: null
