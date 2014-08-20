@@ -8,47 +8,47 @@ plugin:
         pub-id: Kiadvány
         piwik-login: 'Belépés a Piwikbe:'
         visit-pub: 'Kiadványod felkeresése:'
-        advanced: null
-        mask-ip: null
-        method-post: null
+        advanced: Speciális
+        mask-ip: 'IP-címeket maszkol (jelenleg n.a.).'
+        method-post: 'A kérelmi metódust ''POST'' módszerre állítja. '
         sidebar_title: 'Hogyan működik'
-        sidebar_ol_li1: null
-        sidebar_ol_li2: null
-        sidebar_ol_li3: null
-        sidebar_ol_li4: null
-        sidebar_ol_li5: null
-        sidebar_ol_ul_li1: null
-        sidebar_ol_ul_li2: null
-        done: null
-        prerequisites: null
-        prerequisites_ol_li1: null
-        prerequisites_ol_li2: null
-        more-piwik: null
-        sidebar-tip: null
-        sidebar-tip-info-default: null
-        sidebar-tip-info-implement: null
-        sidebar-tip-info-code-type: null
-        theme-manager: null
-        code-type: null
-        ip-anonym: null
-        enter-url: null
-        enter-id: null
-        enter-token: null
-        piwik-url: null
-        activate: null
-        helptext-ol-li1: null
-        helptext-ol-li2: null
-        helptext-ol-li3: null
-        helptext-ol-li4: null
-        close: null
-        help: null
-        more-google: null
-        piwik-url-id-description: null
-        js-description: null
-        imgtrack-description: null
-        change-code-type-description: null
-        ip-anonym-description: null
-        post-description: null
-        activate-description: null
-        code-description: null
-        google-description: null
+        sidebar_ol_li1: 'Válassz egy kiadványt a legördülőből'
+        sidebar_ol_li2: 'Add meg a Piwik URL-címedet és helyazonosítódat'
+        sidebar_ol_li3: 'Válassz további követési lehetőségeket.'
+        sidebar_ol_li4: 'Kattints a <b>Küldés</b> gombra'
+        sidebar_ol_li5: 'Sablon szerkesztése '
+        sidebar_ol_ul_li1: "Illeszd be a következőt a .tpl fájlokban a &#60;&#47;body&#62; címke elé:\n<b>&#123;&#123;analytics_block&#125;&#125;&nbsp;&#123;&#123;&#47;analytics_block&#125;&#125;</b>"
+        sidebar_ol_ul_li2: 'Nézd meg a generált kódot a kiadványod forráskódjában (ha be van jelölve az b>Aktiválás</b> beállítás).'
+        done: Kész!
+        prerequisites: Követelmények
+        prerequisites_ol_li1: 'Piwik telepítés szükséges hozzá. (A "Piwik URL" a Piwik-kiszolgáló URL-címét/elérési útját képviseli)'
+        prerequisites_ol_li2: 'A kiadványt webhelyként ("Webhely-azonosító") kell hozzáadni a Piwikben vagy a Google Analytics-ben.'
+        more-piwik: 'A Piwikről bővebben'
+        sidebar-tip: Tipp
+        sidebar-tip-info-default: 'Ha bizonytalan vagy, használd az alapértelmezett beállításokat.'
+        sidebar-tip-info-implement: 'Javasoljuk, hogy az analitikai blokk kódját a footer.tpl fájlban a &#60;&#47;footer&#62; címke után illeszd be a Piwik számára.'
+        sidebar-tip-info-code-type: 'A kódtípust a <i>tracker</i> paraméter használatával módosíthatod a sablonban. Például: &#123;&#123;analytics_block tracker=&#34;2&#34;&#125;&#125;&#123;&#123;&#47;analytics_block&#125;&#125;'
+        theme-manager: 'Téma kezelése'
+        code-type: 'Kód típusa'
+        ip-anonym: 'IP anonimizálása'
+        enter-url: 'Érvényes Piwik-URL-címet adj meg'
+        enter-id: 'Érvényes webhely-azonosítót adj meg'
+        enter-token: 'Add meg az authTokent'
+        piwik-url: 'A Piwik URL-címe (protokoll nélkül)'
+        activate: Aktiválás
+        helptext-ol-li1: 'Hol találom a Piwik URL-t és a webhely-azonosítót?'
+        helptext-ol-li2: 'Melyek a speciális beállítások?'
+        helptext-ol-li3: 'Hol láthatom a generált kódot?'
+        helptext-ol-li4: 'Mire jó a generált kód?'
+        close: bezárás
+        help: Súgó
+        more-google: 'A Google Analytics-ről bővebben'
+        piwik-url-id-description: 'A Piwik URL a Piwik-telepítésed elérési útját határozza meg. A Webhely-azonosító egy webhelyet jelöl a Piwik rendszerben, melyet a Piwik adminisztrátornak kell hozzáadnia. A webhely-azonosító a Piwik webhelykezelésében található. Ha nem ismered ezeket a beállításokat, tudasd velünk.'
+        js-description: '<i>JavaScript</i> a Piwik alapértelmezett és valószínűleg leghatékonyabb követési módszere.'
+        imgtrack-description: '<i>ImageTracker</i> másodlagos követési lehetőség, ha a JavaScript nem engedélyezett, vagy nem érhető el.'
+        change-code-type-description: '<b>Megjegyzés:</b> A sablonban a kódtípust a <i>tracker</i> paraméter használatával módosíthatod. A <i>tracker=&#34;1&#34;</i> Piwik csak JavaScript-kódot generál, a <i>tracker=&#34;2&#34;</i> Piwik csak ImageTracker-kódot. A <i>tracker=&#34;3&#34;</i> és a <i>tracker=&#34;4&#34;</i> Google Analytics kódot generál. Ha nincs megadva, akkor az alapértelmezett kombinációt adja vissza.'
+        ip-anonym-description: 'A Piwik alapértelmezésként minden új látogató IP-címét (ipv4 vagy ipv6 formátum) az adatbázisban tárolja. Annak biztosításaként, hogy nem tárolod el a látogatók IP-címeit, a Piwikben lehetőség van az automatikus IP-névtelenítésre. Sajnos ez a lehetőség bővítményként nem áll rendelkezésre a követőkódhoz, viszont tervbe van véve. Ha már most akarod használni, akkor tedd meg a Piwik adminisztrációs beállításaiban.'
+        post-description: 'Aktiválása esetén hozzáad egy lehetőséget a követőkódhoz, vagyis a kérelmi metódus a ''POST'' (az alapértelmezett a ''GET''). A POST kérelmi metódus használatához a Piwik-állomásnak azonosnak kell lennie a követett webhely állomásával (vagyis a Piwiket ugyanarra a tartományra kell telepíteni, mint a követett webhelyet).'
+        activate-description: 'Ha bejelölted az <i>Aktiválás</i> beállítást, akkor felkeresheted a kiadvány webhelyét, és megnézheted a forráskódot. Attól függően, hogy hova illesztetted be a címkét a sablonokban, az elemző kódot a lap elején vagy végén találod.'
+        code-description: 'A kód HTTP-kérelmet fog generálni a látogató összegyűjtött adataival, mely a Piwik vagy a Google kiszolgálójának kerül elküldésre feldolgozás céljából. Ezeknek az összegyűjtött adatoknak az alapján a jelentések lehívhatók, amiből értékes információ nyerhető ki a kiadvány látogatójának viselkedéséről. A jelentések a Piwik vagy a Google Analytics adminisztrációs felületén tekinthetők meg. Ezen bővítmény valamelyik későbbi verziójában fogunk a Newscoop rendszeren belüli jelentés funkciót biztosítani.'
+        google-description: 'A Google 2 JavaScript-kód lehetőséget biztosít a webes követéshez: <i>Klasszikus Analytics</i> (ga.js) és az újabb <i>Universal Analytics</i> (analytics.js).'
