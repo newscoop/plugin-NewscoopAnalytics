@@ -1,11 +1,11 @@
-Plugins: null
+Plugins: 插件
 plugin:
     admin:
         title: null
         titlecontent: null
         content: null
-        menu-left: null
-        pub-id: null
+        menu-left: 出版物
+        pub-id: 出版物
         piwik-login: null
         visit-pub: null
         advanced: null
@@ -41,7 +41,7 @@ plugin:
         helptext-ol-li3: null
         helptext-ol-li4: null
         close: null
-        help: null
+        help: 帮助
         more-google: null
         piwik-url-id-description: null
         js-description: null
