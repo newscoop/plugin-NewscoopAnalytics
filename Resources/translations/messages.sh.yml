@@ -1,11 +1,11 @@
-Plugins: null
+Plugins: Pluginovi
 plugin:
     admin:
         title: null
         titlecontent: null
         content: null
-        menu-left: null
-        pub-id: null
+        menu-left: Publikacije
+        pub-id: Publikacija
         piwik-login: null
         visit-pub: null
         advanced: null
@@ -28,7 +28,7 @@ plugin:
         sidebar-tip-info-default: null
         sidebar-tip-info-implement: null
         sidebar-tip-info-code-type: null
-        theme-manager: null
+        theme-manager: 'Upravljanje temom'
         code-type: null
         ip-anonym: null
         enter-url: null
@@ -41,7 +41,7 @@ plugin:
         helptext-ol-li3: null
         helptext-ol-li4: null
         close: null
-        help: null
+        help: Pomoć
         more-google: null
         piwik-url-id-description: null
         js-description: null
