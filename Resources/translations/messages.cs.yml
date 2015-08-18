@@ -31,7 +31,7 @@ plugin:
         theme-manager: 'Spravování témat'
         code-type: 'Typ kódu'
         ip-anonym: 'Anonymizovat IP'
-        enter-url: 'Prosíme vlože platný Piwik URL'
+        enter-url: null
         enter-id: null
         enter-token: 'Prosíme vložte authToken'
         piwik-url: 'Piwik URL (žádný protokol)'
