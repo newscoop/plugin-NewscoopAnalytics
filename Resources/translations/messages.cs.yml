@@ -1,29 +1,29 @@
 Plugins: Plug-iny
 plugin:
     admin:
-        title: 'Analytický Manager'
-        titlecontent: 'Analytický Manager'
+        title: 'Správa měření'
+        titlecontent: null
         content: null
         menu-left: Publikace
         pub-id: Publikace
         piwik-login: 'Přihlásit se do Piwik:'
         visit-pub: 'Navštívit vaší publikaci:'
         advanced: Pokročilý
-        mask-ip: 'Skrýt IP adresy (nyní není k dispozici)'
-        method-post: 'Nastavit požadovanou metodu do ''POST''.'
+        mask-ip: null
+        method-post: null
         sidebar_title: 'Jak to funguje'
         sidebar_ol_li1: null
         sidebar_ol_li2: null
         sidebar_ol_li3: null
         sidebar_ol_li4: 'Klikněte na <b>Poslat</b>'
-        sidebar_ol_li5: 'Upravit template v '
+        sidebar_ol_li5: null
         sidebar_ol_ul_li1: "Vložit\n<b>&#123;&#123;analytics_block&#125;&#125;&nbsp;&#123;&#123;&#47;analytics_block&#125;&#125;</b> in the .tpl files before the &#60;&#47;body&#62; tag"
         sidebar_ol_ul_li2: 'Podívejte se na zdrojový kód vaší publikace, aby jste viděli váš generovaný kód (pokud možnost  <b>Aktivovat</b> je zaškrtnutá)'
         done: Hotovo!
         prerequisites: Požadavky
         prerequisites_ol_li1: 'Piwik musí býl instalován. ("Piwik URL" reprezentuje URL/Path vašeho Piwik serveru)'
         prerequisites_ol_li2: null
-        more-piwik: 'Více na Piwik'
+        more-piwik: null
         sidebar-tip: Rada
         sidebar-tip-info-default: 'Pokud si nejste jisti, použijte původní nastavení.'
         sidebar-tip-info-implement: null
@@ -39,13 +39,13 @@ plugin:
         helptext-ol-li1: null
         helptext-ol-li2: 'Jaká jsou pokročilá nastavení?'
         helptext-ol-li3: 'Kde můžu vidět generovaný kód?'
-        helptext-ol-li4: 'Na co je generovaný kód vhodný?'
-        close: uzavřeno
+        helptext-ol-li4: null
+        close: null
         help: Nápověda
-        more-google: 'Více na Google Analytics'
+        more-google: null
         piwik-url-id-description: null
         js-description: '<i> JavaScript </ i> je výchozí a pravděpodobně nejúčinnější metoda sledování Piwik.'
-        imgtrack-description: '<i>ImageTracker</ i> je alternativní možnost sledování, pokud není povolen nebo není k dispozici JavaScript.'
+        imgtrack-description: null
         change-code-type-description: null
         ip-anonym-description: 'Ve výchozím nastavení Piwik ukládá IP adresu návštěvníků (ipv4 nebo ipv6 formátu) do databáze pro každého nového návštěvníka. Nechcete-li ukládat IP návštěvníka, Piwik poskytuje možnost automatické anonymizaci IP. Bohužel, tato možnost není k dispozici jako rozšíření pro sledování kódu, ale v plánování. Chcete-li ji používat hned, učiňte tak prosím v nastavení Piwik admin.'
         post-description: null
