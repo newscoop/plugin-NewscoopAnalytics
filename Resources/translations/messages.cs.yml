@@ -6,7 +6,7 @@ plugin:
         content: null
         menu-left: Publikace
         pub-id: Publikace
-        piwik-login: 'Přihlásit se do Piwik:'
+        piwik-login: null
         visit-pub: 'Navštívit vaší publikaci:'
         advanced: Pokročilý
         mask-ip: null
