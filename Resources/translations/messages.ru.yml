@@ -1,14 +1,14 @@
-Plugins: null
+Plugins: Плагины
 plugin:
     admin:
         title: null
         titlecontent: null
         content: null
-        menu-left: null
-        pub-id: null
+        menu-left: Издания
+        pub-id: Издание
         piwik-login: null
         visit-pub: null
-        advanced: null
+        advanced: Расширенные
         mask-ip: null
         method-post: null
         sidebar_title: null
@@ -28,7 +28,7 @@ plugin:
         sidebar-tip-info-default: null
         sidebar-tip-info-implement: null
         sidebar-tip-info-code-type: null
-        theme-manager: null
+        theme-manager: 'Управление темами (наборами шаблонов)'
         code-type: null
         ip-anonym: null
         enter-url: null
@@ -41,7 +41,7 @@ plugin:
         helptext-ol-li3: null
         helptext-ol-li4: null
         close: null
-        help: null
+        help: Помощь
         more-google: null
         piwik-url-id-description: null
         js-description: null
